@@ -31,7 +31,6 @@ h4 {
   width: 100%;
 }
 .container {
-  max-width: 1050px;
   margin: 0px auto;
 }
 .company .container {
@@ -70,7 +69,7 @@ nav ul {
 .products {
   display: flex;
   justify-content: space-between;
-  margin: 3em 0px;
+  margin: 5% 5%;
 }
 .product {
   width: 30%;
@@ -100,7 +99,7 @@ nav ul {
 .business-info {
   display: flex;
   justify-content: space-between;
-  margin: 3rem 0px;
+  margin: 5% 5%;
 }
 .info {
   width: 35%;
@@ -120,7 +119,7 @@ footer {
   color: white;
   text-align: left;
   margin-top: 3em;
-  padding: 5em 0px;
+  padding: 2.5em 0px;
 }
 @media only screen and (max-width: 1024px) {
    body {
