@@ -1,0 +1,141 @@
+html {
+  font-size: 18px;
+  background-color: "white";
+  font-family: sans-serif;;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0px;
+  line-height: 225%;
+}
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  font-family: "Roboto";
+  text-align: left;
+}
+h1,
+h4 {
+  display: block;
+  font-weight: bold;
+}
+.main-banner {
+  background-image: url("../images/MainBannerBackground.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+.main-banner img {
+  width: 100%;
+}
+.container {
+  max-width: 1050px;
+  margin: 0px auto;
+}
+.company .container {
+  display: flex;
+  align-items: left;
+  padding: 12px 0px 12px 9px;
+}
+.headline {
+  background-color: black;
+  color: white;
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: bold;
+  width: 20rem;
+  position: relative;
+  top: 9rem;
+  left:1rem;
+  padding: 2rem 3rem;
+}
+.headline h1 {
+  font-size: 2rem;
+  margin: 0.25rem 0;
+  line-height:
+}
+nav {
+  background-color: firebrick;
+  color: white;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  list-style: none;
+}
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0px;
+}
+.product {
+  width: 30%;
+}
+.product-image {
+  height: 9em;
+  padding: 2em 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+
+}
+.description {
+  width: 100%;
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em 0em;
+}
+
+.prodcut-image img {
+  max-width: 8em;
+}
+
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0px;
+}
+.info {
+  width: 35%;
+}
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+footer .container {
+  width: 100%;
+}
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: left;
+  margin-top: 3em;
+  padding: 5em 0px;
+}
+@media only screen and (max-width: 1024px) {
+   body {
+    font-size: 16px;
+  }
+ .mobile nav {
+     display: block;
+     text-align: center;
+   }
+  .product {
+     width: 47%;
+   }
+ }
+@media only screen and (max-width: 470px) {
+
+}
+
+}
